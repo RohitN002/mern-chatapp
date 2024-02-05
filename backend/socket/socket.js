@@ -9,7 +9,7 @@ const io = new Server(server,
 	{
 	
 	cors: {
-		origin: ['http://localhost:3000'],
+		origin: ['https://mern-chatapp-1w85.onrender.com'],
 		methods: ["GET", "POST"],
 	},
 });
